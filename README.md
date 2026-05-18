@@ -40,3 +40,9 @@ O arquivo utiliza tipos esperados no app:
 ## Status
 
 Em desenvolvimento.
+
+
+## Arquivos Swift adicionados
+
+- `ios/PataDinosApp/Models.swift`: modelos `Lesson`, `Exercise`, `UserProgress` e `LessonStore`.
+- `ios/PataDinosApp/LessonView.swift`: tela placeholder da lição para navegação.
