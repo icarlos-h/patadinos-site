@@ -1,68 +1,42 @@
-# PataDinos
+# PataDinos (SwiftUI)
 
-Site oficial do PataDinos, marca infantil de entretenimento educativo com personagens, músicas e histórias lúdicas.
+Aplicativo em SwiftUI para o universo infantil educativo PataDinos.
 
-## Sobre o projeto
+## Objetivo
 
-O PataDinos é uma marca infantil de entretenimento educativo criada para apresentar um universo lúdico de músicas, histórias e personagens.
+Migrar a experiência de landing page para uma interface nativa iOS com navegação por lições, progresso e componentes visuais infantis.
 
-O projeto acompanha quatro pequenos dinossauros criados por uma pata, cada um com personalidade própria, vivendo aventuras que misturam imaginação, aprendizado e valores positivos.
+## Estrutura
 
-Este site funciona como uma landing page oficial da marca, apresentando o conceito do PataDinos, seus personagens principais e sua proposta de conteúdo para crianças.
+- `ios/PataDinosApp/HomeView.swift`: tela principal em SwiftUI com:
+  - cabeçalho com badges de streak e estrelas;
+  - barra de progresso da trilha;
+  - lista de lições com estados ativo/concluído/bloqueado;
+  - barra de navegação inferior.
 
-## Objetivo do site
+## Componentes principais
 
-O objetivo do site é apresentar o universo PataDinos de forma clara, visual e acessível, servindo como uma vitrine inicial para a marca.
+- `HomeView`
+- `BadgeView`
+- `ActiveLessonCard`
+- `LockedLessonCard`
+- `BottomNavBar`
+- `Color(hex:)` (extensão utilitária)
 
-A página busca comunicar a essência do projeto: educação, diversão, música, aventura e imaginação.
+## Dependências de modelo
 
-## Personagens
+O arquivo utiliza tipos esperados no app:
 
-### Caca
-Criativo, brincalhão e cheio de energia. Gosta de festas, movimento e novas ideias.
+- `UserProgress`
+- `LessonStore`
+- `Lesson`
+- `LessonView`
 
-### Lele
-Doce, sensível e apaixonada pela natureza. Tem uma relação especial com flores, plantas e o cuidado com o mundo ao redor.
+## Tecnologias
 
-### Nino
-Aventureiro e curioso. É apaixonado pelo espaço, pelas descobertas e por explorar coisas novas.
-
-### Teka
-Tímida, inteligente e inventiva. Gosta de criar soluções, mexer com tecnologia primitiva e desenvolver novas ideias.
-
-## Proposta da marca
-
-O PataDinos foi pensado para criar conteúdos infantis educativos em diferentes formatos, como músicas, desenhos animados, episódios, histórias, atividades e produtos digitais.
-
-A marca busca construir um ambiente seguro, lúdico e educativo para crianças, combinando entretenimento com aprendizado.
-
-## Estrutura do projeto
-
-```text
-.
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── img/
-│   └── js/
-│       └── main.js
-├── index.html
-└── README.md
-```
-
-## Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Sugestões de melhorias simples
-
-- Adicionar ilustrações oficiais dos personagens na pasta `assets/img`.
-- Incluir uma seção de contato institucional.
-- Criar versão com acessibilidade ampliada (alto contraste e controles de fonte).
-- Publicar domínio próprio e configurar SEO básico (Open Graph e favicon).
+- Swift 5+
+- SwiftUI
 
 ## Status
 
-Projeto em desenvolvimento.
+Em desenvolvimento.
