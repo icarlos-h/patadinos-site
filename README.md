@@ -46,3 +46,5 @@ Em desenvolvimento.
 
 - `ios/PataDinosApp/Models.swift`: modelos `Lesson`, `Exercise`, `UserProgress` e `LessonStore`.
 - `ios/PataDinosApp/LessonView.swift`: tela placeholder da lição para navegação.
+
+- `ios/PataDinosApp/AprendaBrincandoApp.swift`: ponto de entrada do app com `@main` e injeção de `UserProgress` no ambiente.
